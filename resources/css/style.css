@@ -1,0 +1,146 @@
+html {
+    font-size: 22px;
+    font-family: 'Helvetica';
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+body{
+    display: grid;
+    background-color: black;
+   
+}
+
+/* Cabeçario */
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    height: 69px;
+}
+
+header > h1 {
+    display: inline-block;
+}
+
+#img-logo {
+    height: 2.272727272727273rem;
+    padding-left: 10px;
+}
+
+#menu-nav, nav{
+    display: inline-block;
+}
+
+nav {
+    padding-right: 10px;
+}
+
+li.nav-item a.link-item {
+ color: seashell;
+}
+
+li.nav-item {
+    display: inline-block;
+}
+
+/* Fim do cabeçario */
+
+/* Main */
+
+main {
+    padding-top: 69px;
+}
+
+div#fundo-image {
+    width: 1200px;
+    height: 700px;
+    background-image: url('../img/img-mission-background.jpg');
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div#fundo-image > h2, div#fundo-image > h4 {
+    background-color: black;
+}
+
+section {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#galeria {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+figure {
+    margin: 10px 15px;
+}
+
+figure img {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+}
+
+figcaption {
+    margin-top: 10px;
+}
+/* Fim da main */
+
+/* Footer */
+#banner-footer {
+    width: 1200px;
+    height: 500px;
+    background-image: url('../img/img-locations-background.jpg');
+    margin: 50px;
+}
+
+#banner-footer > h2 {
+    font-weight: bold;
+    padding-top: 60px;
+    padding-bottom: 15px;
+}
+
+#cards {
+    display: flex;
+    justify-content: center;
+}
+
+#cards .card {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 70px;
+}
+
+#cards .card > h3 {
+    font-weight: bold;
+}
+
+#contatos{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* Fim do footer */
+
+#copyright {
+    text-align: left;
+    padding-left: 20px;
+}
